@@ -1,7 +1,7 @@
 let dialogues = [];
 
 async function fetchDialogues() {
-  const response = await fetch("https://ulbslxlrqkoijehuhquz.supabase.corest/v1/dialogues", {
+  const response = await fetch("https://ulbslxlrqkoijehuhquz.supabase.co/rest/v1/dialogues", {
     method: "GET",
     headers: {
       apikey: "YOUR_ANON_KEY",
