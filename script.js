@@ -1,11 +1,11 @@
 let dialogues = [];
 
 async function fetchDialogues() {
-  const response = await fetch("https://ulbslxlrqkoijehuhquz.supabase.co", {"
+  const response = await fetch("https://ulbslxlrqkoijehuhquz.supabase.co", {
     method: "GET",
     headers: {
-      apikey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVsYnNseGxycWtvaWplaHVocXV6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDc5ODIxMTUsImV4cCI6MjA2MzU1ODExNX0.SWXjJp_qfhQ08uPcTsGrzwNPkP6i5umyqvRxd86iE2A",
-      Authorization: "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVsYnNseGxycWtvaWplaHVocXV6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDc5ODIxMTUsImV4cCI6MjA2MzU1ODExNX0.SWXjJp_qfhQ08uPcTsGrzwNPkP6i5umyqvRxd86iE2A"
+      apikey: "YOUR_ANON_KEY",
+      Authorization: "Bearer YOUR_ANON_KEY"
     }
   });
 
