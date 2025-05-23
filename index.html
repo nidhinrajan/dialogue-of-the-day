@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dialogue of the Day</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 flex items-center justify-center h-screen">
+  <div class="bg-white shadow-lg rounded-xl p-8 max-w-md text-center">
+    <h1 class="text-2xl font-bold mb-4">Malayalam Dialogue of the Day</h1>
+    <p id="dialogue" class="text-xl italic text-gray-700 mb-4"></p>
+    <p id="details" class="text-sm text-gray-500 mb-4"></p>
+    <button onclick="showRandomDialogue()" class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">
+      Show Another
+    </button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
